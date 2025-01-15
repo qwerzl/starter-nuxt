@@ -1,7 +1,7 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-  unocss: false,
+  unocss: true,
   vue: true,
   ignores: [
     'components/ui/',
