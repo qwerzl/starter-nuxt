@@ -11,22 +11,23 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@nuxt/fonts": "^0.7.1",
-    "@nuxt/image": "^1.7.0",
-    "class-variance-authority": "^0.7.0",
+    "@nuxt/fonts": "^0.10.3",
+    "@nuxt/image": "^1.9.0",
+    "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-vue-next": "^0.408.0",
-    "nuxt": "^3.12.3",
-    "radix-vue": "^1.9.1",
+    "lucide-vue-next": "^0.471.0",
+    "nuxt": "^3.15.1",
+    "radix-vue": "^1.9.12",
+    // TODO: Track https://github.com/unovue/shadcn-vue/pull/1000
     "shadcn-nuxt": "^0.10.4",
-    "tailwind-merge": "^2.4.0",
+    "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
     "vue": "latest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.2",
-    "@nuxtjs/tailwindcss": "^6.12.1",
-    "@unocss/eslint-plugin": "^0.61.3",
+    "@antfu/eslint-config": "^3.14.0",
+    "@nuxtjs/tailwindcss": "^6.13.1",
+    "@unocss/eslint-plugin": "^65.4.0",
     "eslint": "9.5.0"
   }
 }
