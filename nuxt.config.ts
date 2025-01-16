@@ -12,5 +12,19 @@ export default defineNuxtConfig({
   ],
   colorMode: {
     dataValue: 'theme',
+  },
+  future: {
+    compatibilityVersion: 4,
+  },
+  typescript: {
+    tsConfig: {
+      compilerOptions: {
+        baseUrl: '.'
+      }
+    }
+  },
+  shadcn: {
+    componentDir: './app/components/shadcn',
+    prefix: 'Ui'
   }
 })

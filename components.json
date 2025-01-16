@@ -3,13 +3,14 @@
   "typescript": true,
   "tailwind": {
     "config": "tailwind.config.js",
-    "css": "src/assets/index.css",
+    "css": "app/assets/index.css",
     "baseColor": "neutral",
     "cssVariables": true
   },
   "framework": "vite",
   "aliases": {
-    "components": "@/components",
-    "utils": "@/lib/utils"
-  }
+    "components": "./app/components",
+    "utils": "./app/lib/utils"
+  },
+  "tsConfigPath": "./.nuxt/tsconfig.json"
 }

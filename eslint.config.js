@@ -4,6 +4,6 @@ export default antfu({
   unocss: true,
   vue: true,
   ignores: [
-    'components/ui/',
+    'app/components/shadcn/',
   ],
 })
