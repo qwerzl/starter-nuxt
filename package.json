@@ -13,12 +13,14 @@
   "dependencies": {
     "@nuxt/fonts": "^0.10.3",
     "@nuxt/image": "^1.9.0",
+    "@nuxtjs/color-mode": "3.5.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.471.0",
     "nuxt": "^3.15.1",
     "radix-vue": "^1.9.12",
     "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.6.0",
     "vue": "latest"
   },
   "devDependencies": {
@@ -26,6 +28,9 @@
     "@unocss/eslint-plugin": "^65.4.0",
     "@unocss/nuxt": "^65.4.0",
     "eslint": "9.5.0",
-    "unocss": "^65.4.0"
-  }
+    "unocss": "^65.4.0",
+    "unocss-preset-animations": "^1.1.0",
+    "unocss-preset-shadcn": "^0.3.1"
+  },
+  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab"
 }
