@@ -26,11 +26,11 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.14.0",
-    "@unocss/eslint-plugin": "^65.4.0",
-    "@unocss/nuxt": "^65.4.0",
+    "@unocss/eslint-plugin": "^66.0.0",
+    "@unocss/nuxt": "^66.0.0",
     "eslint": "9.5.0",
     "typescript": "^5.7.3",
-    "unocss": "^65.4.0",
+    "unocss": "^66.0.0",
     "unocss-preset-animations": "^1.1.0",
     "unocss-preset-shadcn": "^0.3.1"
   }
