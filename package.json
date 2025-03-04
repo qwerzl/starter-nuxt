@@ -2,7 +2,7 @@
   "name": "nuxt-app",
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@9.14.4+sha512.c8180b3fbe4e4bca02c94234717896b5529740a6cbadf19fa78254270403ea2f27d4e1d46a08a0f56c89b63dc8ebfd3ee53326da720273794e6200fcf0d184ab",
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -17,21 +17,21 @@
     "@nuxtjs/color-mode": "3.5.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-vue-next": "^0.471.0",
-    "nuxt": "^3.15.1",
-    "radix-vue": "^1.9.12",
-    "shadcn-nuxt": "^0.10.4",
-    "tailwind-merge": "^2.6.0",
+    "lucide-vue-next": "^0.477.0",
+    "nuxt": "^3.15.4",
+    "radix-vue": "^1.9.17",
+    "shadcn-nuxt": "^1.0.2",
+    "tailwind-merge": "^3.0.2",
     "vue": "latest"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.14.0",
-    "@unocss/eslint-plugin": "^65.4.0",
-    "@unocss/nuxt": "^65.4.0",
+    "@antfu/eslint-config": "^4.4.0",
+    "@unocss/eslint-plugin": "^66.0.0",
+    "@unocss/nuxt": "^66.0.0",
     "eslint": "9.5.0",
-    "typescript": "^5.7.3",
-    "unocss": "^65.4.0",
-    "unocss-preset-animations": "^1.1.0",
-    "unocss-preset-shadcn": "^0.3.1"
+    "typescript": "^5.8.2",
+    "unocss": "^66.0.0",
+    "unocss-preset-animations": "^1.1.1",
+    "unocss-preset-shadcn": "^0.3.2"
   }
 }
